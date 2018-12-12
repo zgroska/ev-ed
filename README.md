@@ -1,15 +1,15 @@
 Showdown demo for Jeremy ~ Read Me
 ===
 
-<span style=display:none; >[You are now in GitHub source code view - click here to view Read Me file as a web page]( http://theo-armour.github.io/explayrimental/tammik/showdown/ "View file as a web page." ) </span>
-<input type=button value='You are now in GitHub web page view - Click here to view Read Me file as source code' onclick=window.location.href='https://github.com/theo-armour/explayrimental/tree/gh-pages/tammik/showdown'; />
+<span style=display:none; >Most a GitHub forráskód nézetben - kattints ide, hogy megtekinthesse a Read Me fájlt weboldalként]( http://zgroska.github.io/ev-ed.org/ "Fájl megtekintése weboldalként." ) </span>
+<input type=button value='Most a GitHub weboldalának nézete - Kattintson ide a Read Me fájl forráskód megtekintéséhez' onclick=window.location.href='http://zgroska.github.io/ev-ed.org/'; />
 
 
 Welcome [3D Coder Readers]( http://the3dwebcoder.typepad.com/blog/2015/08/hackergarten-chromium-and-markdown.html#comment-2222672923 )!
 
 This page shows several fun things you can do with the [Showdown]( https://github.com/showdownjs/showdown ) Markdown interpreter - especially with files hosted on GitHub.
 
-1. [Index.html]( https://github.com/theo-armour/explayrimental/blob/gh-pages/tammik/showdown/index.html ) is set up so as to automatically read a file named 'readme.md' and turn Markdown into HTML.
+1. [Index.html]( http://zgroska.github.io/ev-ed.org/index.html ) is set up so as to automatically read a file named 'readme.md' and turn Markdown into HTML.
 If, however, there is file named using location hash then index.html will translate and display that file.
 The two links below are examples of this use.
 
