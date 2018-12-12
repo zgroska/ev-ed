@@ -1,2 +1,2 @@
 # ev-ed.org
-A képzés evolúciója
+## A képzési anyagok gyűjteménye
