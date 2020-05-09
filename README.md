@@ -1,7 +1,7 @@
 Read Me
 ===
 
-<span style=display:none; >Most a GitHub forráskód nézetben - kattints ide, hogy megtekinthesse a Read Me fájlt weboldalként]( http://zgroska.github.io/ev-ed/ "Fájl megtekintése weboldalként." ) </span>
+Most a GitHub forráskód nézetben - kattints ide, hogy megtekinthesse a [READ.me](http://zgroska.github.io/ev-ed/ "Fájl megtekintése weboldalként.") fájlt weboldalként
 <input type=button value='Most a GitHub weboldalának nézete - Kattintson ide a Read Me fájl forráskód megtekintéséhez' onclick=window.location.href='http://zgroska.github.io/ev-ed/'; />
 
 Welcome [3D Coder Readers]( http://the3dwebcoder.typepad.com/blog/2015/08/hackergarten-chromium-and-markdown.html#comment-2222672923 )!
