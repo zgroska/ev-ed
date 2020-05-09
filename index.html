@@ -1,46 +1,44 @@
 <!doctype html>
-<html lang=en >
+<html>
 <head>
-<title></title>
-<meta charset=utf-8 />
-<meta name=viewport content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' />
+<title>Explayrimental</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="author" content="Theo Armour">
+<style>
+body {color: #ddd; background-color: #888; font-family: sans-serif; margin: 0 30% 20 30%; text-align: center;}
+a {color: #ccc;}
+#content {text-align: left; width: 642px; margin: auto;}
+</style>
 </head>
 <body>
-<script src=http://cdnjs.cloudflare.com/ajax/libs/showdown/1.2.3/showdown.min.js ></script>
-<script>
+<div id="content">
+<h1><a href = "" >explayrimental</a></h1>
+<p><a href='../index.html'>Home</a></p>
+<hr>
 
-	init();
+<p><a href="../index.html#explayrimental/jan-wurm/README.md" target="_blank">Jan Wurm</a></p>
+<p><a href="art-scott/index.html">Art Scott Thingy</a></p>
 
-	function init() {
-
-		document.body.style.cssText = ' font: 12pt monospace; left: 0; margin: 0 auto; max-width: 800px; position: absolute; right: 0; ';
-
-		info = document.body.appendChild( document.createElement( 'div' ) );
-
-		window.addEventListener( 'hashchange', hashChange, false );
-
-		hashChange();
-
-	}
-
-	function hashChange() {
-
-		fileName = location.hash ? location.hash.split( '#' )[1] : 'readme.md';
-
-		document.title = document.title ? document.title : fileName;
-
-		var xmlHttp = new XMLHttpRequest();
-		xmlHttp.open( 'GET', fileName, true );
-		xmlHttp.onreadystatechange = function() {
-
-			info.innerHTML = xmlHttp.readyState === 4 ? new showdown.Converter().makeHtml( xmlHttp.responseText ) : '';
-
-		};
-
-		xmlHttp.send( null );
-
-	}
-
-</script>
+<p><a href="tumblrs/2014-11-26-boilerplate-simple-lights.html">Tumblr 1</a> <a href="tumblrs/2014-11-27-2d-array-cubes-sin-wave.html">Tumblr 2</a></p>
+<br>
+<p>
+<br><a href="cclark/index.html">Catharine Clark Gallery 2011? (mostly broken )</a>
+</p>
+<p>
+<br><a href="cclark-threesentation/index.html">Catharine Clark Gallery - Threesentation 2011? (mostly broken )</a>
+</p>
+<p>
+<br><a href="matrix/abby/index.html">Abby 2014 </a>
+</p>
+<p>
+<br><a href="matrix/jonathan/index.html">Jonathan 2014</a>
+</p>
+<p>
+<br><a href="matrix/cynthia-2011.html">The Cynthia Birthday Matrix for 2011</a>
+</p>
+<p>
+<br><a href="threejs-heart-fire/threejs-particles-shapes-aceit-valentine.html">ACE-IT Valentine Card 2012</a>
+</p>
+</div>
 </body>
 </html>
